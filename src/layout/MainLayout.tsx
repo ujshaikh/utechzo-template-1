@@ -13,7 +13,7 @@ import AppSidebar from './AppSidebar';
 import AppTopbar from './AppTopbar';
 import AppConfig from './AppConfig';
 import { LayoutContext } from './context/layoutcontext';
-import { LayoutState, AppTopbarRef } from '../../types';
+import { LayoutState, AppTopbarRef } from '@/types';
 
 const MainLayout = () => {
     const location = useLocation();

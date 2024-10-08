@@ -1,7 +1,7 @@
 import { classNames } from 'primereact/utils';
 import React, { forwardRef, useContext, useImperativeHandle, useRef } from 'react';
 import { LayoutContext } from './context/layoutcontext';
-import { AppTopbarRef } from '../../types';
+import { AppTopbarRef } from '@/types';
 import { Link } from 'react-router-dom';
 
 const AppTopbar = forwardRef<AppTopbarRef>((props, ref) => {

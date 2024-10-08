@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import AppMenuitem from './AppMenuitem';
 import { LayoutContext } from './context/layoutcontext';
 import { MenuProvider } from './context/menucontext';
-import { AppMenuItem } from '../../types';
+import { AppMenuItem } from '@/types';
 import { Link } from 'react-router-dom';
 
 const AppMenu = () => {

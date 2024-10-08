@@ -1,5 +1,5 @@
 "use client";
-import type { Demo } from "../../../types";
+import type { Demo } from "@/types";
 import {
     AutoComplete,
     AutoCompleteCompleteEvent,

@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
 import { Timeline } from 'primereact/timeline';
-import { CustomEvent } from '../../types';
+import { CustomEvent } from '@/types';
 
 const TimelineDemo = () => {
     const customEvents: CustomEvent[] = [

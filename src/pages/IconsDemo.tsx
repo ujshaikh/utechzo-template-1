@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { IconService } from '../demo/service/IconService';
 import { InputText } from 'primereact/inputtext';
-import type { Demo } from '../../types';
+import type { Demo } from '@/types';
 import { Link } from 'react-router-dom';
 
 const IconsDemo = () => {

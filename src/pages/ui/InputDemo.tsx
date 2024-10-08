@@ -1,4 +1,4 @@
-import type { Demo, Page } from "../../../types";
+import type { Demo, Page } from "@/types";
 import {
     AutoComplete,
     AutoCompleteCompleteEvent,

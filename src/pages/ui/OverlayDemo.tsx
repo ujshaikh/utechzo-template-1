@@ -9,7 +9,7 @@ import { Sidebar } from 'primereact/sidebar';
 import { Toast } from 'primereact/toast';
 import React, { useEffect, useRef, useState } from 'react';
 import { ProductService } from '../../demo/service/ProductService';
-import type { Demo } from '../../../types';
+import type { Demo } from '@/types';
 
 type ButtonEvent = React.MouseEvent<HTMLButtonElement>;
 const OverlayDemo = () => {

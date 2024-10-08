@@ -6,7 +6,7 @@ import { Sidebar } from 'primereact/sidebar';
 import { classNames } from 'primereact/utils';
 import React, { useContext, useEffect, useState } from 'react';
 import { LayoutContext } from './context/layoutcontext';
-import { AppConfigProps, LayoutConfig, LayoutState } from '../../types';
+import { AppConfigProps, LayoutConfig, LayoutState } from '@/types';
 
 const AppConfig = (props: AppConfigProps) => {
     const [scales] = useState([12, 13, 14, 15, 16]);

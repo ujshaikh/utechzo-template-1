@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { Route, Routes } from 'react-router-dom';
 import MainLayout from './layout/MainLayout';
